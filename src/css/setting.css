@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+}
+@font-face {
+    font-family: Yekan;
+    src: url(../fonts/fa/iranyekanwebregular.woff2);
+}
