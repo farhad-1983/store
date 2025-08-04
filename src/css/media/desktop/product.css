@@ -1,0 +1,74 @@
+.product{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 5px;
+    box-sizing: border-box;
+    .item{
+     width: 45%;
+     padding: 5px;
+     box-sizing: border-box;
+     background-color: rgb(212, 207, 207);
+     margin: 5px 30px;
+     border-radius: 25px 0 25px 0;
+     transition: 300ms;
+     h1{
+        width: 100px;
+        height: 40px;
+        background-color: black;
+        color: whitesmoke;
+        margin: 5px auto;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 8px;
+        font-family: var(--font-family);
+        font-size: 30px;
+     }
+    .image{
+        width: 300px;
+        height: 200px;
+        display: block;
+        margin: 5px auto;
+        border-radius: 8px;
+        img{
+        width: 300px;
+        height: 200px;
+        border-radius: 8px;
+     }
+        }
+      p{
+       font-family: var(--font-family);
+       font-size: 14px;
+       padding: 5px 30px;
+       direction: rtl;
+       display: -webkit-box;
+       -webkit-box-orient: vertical;
+       box-orient: vertical;
+       -webkit-line-clamp: 3;
+       line-clamp: 3;
+       overflow: hidden;
+       line-height: 25px;
+      }
+      a{
+        width: 50px;
+        height: 25px;
+        color: whitesmoke;
+        font-family: var(--font-family);
+        font-size: 20px;
+        background-color: lightcoral;
+        display: block;
+        margin: 5px auto;
+        text-decoration: none;
+        text-align: center;
+        line-height: 25px;
+        border-radius: 8px;
+        &:active{
+            background-color: red;
+        }
+      }
+      &:hover{
+        border: 1px solid red;
+      }
+    }
+}

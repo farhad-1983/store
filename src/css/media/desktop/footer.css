@@ -8,21 +8,31 @@
     div:nth-of-type(1){
         width: 25%;
         height: 100%;
-        background-color: blue;
+        background-color: rgb(105, 105, 131);
     }
     div:nth-of-type(2){
         width: 25%;
         height: 100%;
-        background-color: rgb(0, 255, 85);
+        background-color: rgb(110, 125, 115);
     }
     div:nth-of-type(3){
         width: 25%;
         height: 100%;
-        background-color: rgb(255, 0, 102);
+        background-color: rgb(117, 101, 107);
     }
     div:nth-of-type(4){
         width: 25%;
         height: 100%;
-        background-color: rgb(242, 255, 0);
+        background-color: rgb(149, 151, 113);
+    }
+    h2{
+        font-family: var(--font-family);
+        font-size: 20px;
+        text-align: center;
+        margin-top: 50px;
+        color: aliceblue;
+        &:hover{
+            color: gold;
+        }
     }
 }
